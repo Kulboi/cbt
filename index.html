@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CBT</title>
+
+    <!-- JQuery Js  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="process.js"></script>
+
+</head>
+  
+    <body>
+
+        <div class="questions-body">
+            <div class="heading">   
+                <h1>XYZ CBT PLATFORM</h1>
+            </div>
+            
+            <div class="question-item">
+                <label for="question">What is a computer</label>
+                <br />
+                <br />
+                <textarea rows="5" cols="70" id="question-one"></textarea>
+            </div>
+            <button onclick="getAnswer()">submit</button>
+            <div id="approximation"></div>
+            <div id="answer-div"></div>
+        </div>
+
+    </body>
+
+
+</html>
+
+
+<style>
+.questions-body {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 3em;
+}
+
+.questions-body .heading {
+    margin-bottom: 5em;
+}
+</style>
